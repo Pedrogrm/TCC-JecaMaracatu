@@ -59,7 +59,7 @@ nav button:active {
 
 /* -------- MAIN -------- */
 main {
-  background: url('img/Design.png') no-repeat center center;
+  background: url('img/Design.png') ;
   background-size: cover;
   height: 475px;
   display: flex;
@@ -79,6 +79,7 @@ main {
   box-sizing: border-box;
   font-family: sans-serif;
   text-align: center;
+  margin-top: 125px;
 }
 
 .cadastro > div:first-child {
