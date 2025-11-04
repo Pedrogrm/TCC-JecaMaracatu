@@ -28,10 +28,10 @@ include ("protect.php");
         <button id="btnAbrirPerfil">👤</button>
       </nav>
 
-      <div class="dinheiro-display">
+      <!-- <div class="dinheiro-display">
         <span>💰</span>
         <span id="dinheiro-quantidade">25</span>
-      </div>
+      </div> -->
     </header>
   </div>
 
