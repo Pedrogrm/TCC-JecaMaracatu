@@ -5,6 +5,8 @@ body {
   /* background-color: #fffbea; */
   /* background-color: rgba(243, 216, 106, 0.85); */
   background-color: #f3d86a;
+
+  
 }
 
 header {
@@ -113,7 +115,7 @@ nav button:active {
 /* ____________________________________________ */
 
 #player {
-      width: 12%;
+      width: 10%;
       background-color: transparent;
       position: absolute;
       left: 50%;
@@ -121,7 +123,8 @@ nav button:active {
       border-radius: 5px;
       transform: translate(-50%, -50%);
       transition: transform 0.1s linear;
-      /*border-left: 3px solid black;
+
+     /*border-left: 3px solid black;
        border-top: 3px solid black; */
     }
 
@@ -272,16 +275,16 @@ nav button:active {
 
 #game-area {
   width: 65%;
-  max-height: 70%;
-  background: black;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  margin: 0 auto;
-  position: relative; /* necessário para o player absoluto */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+ max-height: 70%;
+ background: black;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ margin: 0 auto;
+ position: relative; /* necessário para o player absoluto */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
 }
 
 .fundo {
@@ -290,7 +293,7 @@ nav button:active {
 
 #game-area img {
  max-width: 100%;
- max-height: 634px;
+ max-height: 580px;
  border-radius: 10px;
 }
 
@@ -303,22 +306,22 @@ nav button:active {
 
 #mesa1 {
  height: 20%;
- left: 580px;
- top: 286px;
- z-index: 1;
+ left: 430px;
+ top: 230px;
+ z-index: 3;
 }
 
 #mesa2 {
  height: 27%;
- left: 535px;
- top: 503px;
+ left: 370px;
+ top: 400px;
  z-index: 3;
 }
 
 #mesa3 {
  height: 27%;
- left: 1048px;
- top: 508px;
+ left: 750px;
+ top: 400px;
  z-index: 3;
 }
 
@@ -341,7 +344,7 @@ nav button:active {
  /* background-color: green; */
  height: 6vh;
  width: 100vw;
- top: 41vw;
+ top: 42vw;
  z-index: 999;
 }
 
@@ -355,7 +358,7 @@ nav button:active {
  left: 50%;
  top: 50%;
  border-radius: 5px;
- /* transform: translate(-50%, -50%); */
+ transform: translate(-50%, -50%);
  transition: transform 0.1s linear;
  z-index: 1;
 }
