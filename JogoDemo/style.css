@@ -115,16 +115,15 @@ nav button:active {
 /* ____________________________________________ */
 
 #player {
-      width: 10%;
+      width: 12%;
       background-color: transparent;
       position: absolute;
       left: 50%;
-      top: 50%;
+      top: 55%;
       border-radius: 5px;
       transform: translate(-50%, -50%);
       transition: transform 0.1s linear;
-
-     /*border-left: 3px solid black;
+      /*border-left: 3px solid black;
        border-top: 3px solid black; */
     }
 
@@ -275,16 +274,16 @@ nav button:active {
 
 #game-area {
   width: 65%;
- max-height: 70%;
- background: black;
- border-radius: 10px;
- box-shadow: 0 0 10px rgba(0,0,0,0.1);
- margin: 0 auto;
- position: relative; /* necessário para o player absoluto */
- display: flex;
- justify-content: center;
- align-items: center;
- overflow: hidden;
+  max-height: 70%;
+  background: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  position: relative; /* necessário para o player absoluto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .fundo {
@@ -293,7 +292,7 @@ nav button:active {
 
 #game-area img {
  max-width: 100%;
- max-height: 580px;
+ max-height: 635px;
  border-radius: 10px;
 }
 
@@ -306,22 +305,22 @@ nav button:active {
 
 #mesa1 {
  height: 20%;
- left: 430px;
- top: 230px;
- z-index: 3;
+ left: 571px;
+ top: 263px;
+ z-index: 1;
 }
 
 #mesa2 {
  height: 27%;
- left: 370px;
- top: 400px;
+ left: 525px;
+ top: 495px;
  z-index: 3;
 }
 
 #mesa3 {
  height: 27%;
- left: 750px;
- top: 400px;
+ left: 1087px;
+ top: 495px;
  z-index: 3;
 }
 
