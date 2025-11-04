@@ -58,19 +58,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <form method="POST" action="">
         <p>
             <label>Nome:</label><br>
-            <input type="text" name="nome" required>
+            <input type="text" name="nome" required autocomplete="off">
         </p>
         <p>
             <label>Email:</label><br>
-            <input type="email" name="email" required>
+            <input type="email" name="email" required autocomplete="off">
         </p>
         <p>
             <label>Senha:</label><br>
-            <input type="password" name="senha" required>
+            <input type="password" name="senha" required autocomplete="off">
         </p>
         <p>
             <label>Confirmar Senha:</label><br>
-            <input type="password" name="confirmar" required>
+            <input type="password" name="confirmar" required autocomplete="off">
         </p>
         <p>
             <button type="submit">Cadastrar</button>

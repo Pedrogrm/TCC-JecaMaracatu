@@ -123,6 +123,15 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     <title>Login</title>
 </head>
 <body>
+    <header>
+    <div class="logo">
+     <img src="img/Maracatu-removebg-preview.png" alt="Logo Maracatu">
+    </div>
+    <nav>
+     <a href="inicio.html"><button>Sign up</button></a>
+    </nav>
+  </header>
+
     <h1>Acessar a conta</h1>
     <form action="" method="POST">
         <p>
@@ -139,5 +148,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     </form>
 
     <p>Não tem conta? <a href="cadastro.php">Cadastre-se aqui</a></p>
+
+    <p>login <a href="Login.php">teste</a></p>
 </body>
 </html>
