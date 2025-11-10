@@ -2,15 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #f3d86a;
+  /* background-color: #f3d86a; */
+  background: url('img/fundi.jpg') 
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f3d86a;
-  padding: 4px 30px;
+  background-color: #F6910D;
+  padding: 0px 30px;
   margin-bottom: -10px;
 }
 
@@ -22,8 +23,8 @@ header .log {
 }
 
 header .log img {
-  margin: 0px 0px 0px 35px;
-  width: 131px;
+  margin: 0px 0px 0px 10px;
+  width: 100px;
   height: auto;
   display: block;
 }
@@ -37,17 +38,19 @@ header .log img {
 
 /* Navegação */
 nav {
+  margin: 0px 25px 0px 0px;
   display: flex;
   gap: 20px;
 }
 
 nav button {
-  padding: 8px 12px;
+  padding: 8px 13px;
   border-radius: 10px;
   border: none;
   background: #ffac40a9;
   cursor: pointer;
   font-size: 25px;
+  margin: 0px 0px 0px 0px;
   transition: all 0.2s ease;
 }
 
@@ -69,12 +72,12 @@ nav button:active {
 /* ================== ÁREA DO JOGO ================== */
 
 #game-area {
-  width: 66%;
-  max-height: 70%;
+  width: 67%;
+  max-height: 80%;
   background: black;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  margin: 25px auto 0px auto;
   position: relative; /* necessário para o player absoluto */
   display: flex;
   justify-content: center;
@@ -87,8 +90,8 @@ nav button:active {
 }
 
 #game-area img {
-  max-width: 100%;
-  max-height: 650px;
+  max-width: 1180px;
+  max-height: 657px;
   border-radius: 10px;
 }
 
@@ -297,12 +300,11 @@ nav button:active {
   gap: 8px;              /* Adiciona um espacinho entre eles */
 
   /* Abaixo, um estilo extra para ficar mais bonito */
-  background-color: rgba(255, 255, 255, 0.7); /* Fundo branco semi-transparente */
+  background-color: #f2f2afcc; /* Fundo branco semi-transparente */
   padding: 6px 15px;     /* Espaçamento interno */
-  border-radius: 50px;   /* Deixa bem arredondado (pílula) */
+  border-radius: 10px;   /* Deixa bem arredondado (pílula) */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  
-  font-size: 1.1em;      /* Tamanho da fonte */
+  font-size: 1.5em;      /* Tamanho da fonte */
   font-weight: bold;     /* Deixa o número em negrito */
 }
 
