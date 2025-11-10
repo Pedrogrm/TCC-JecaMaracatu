@@ -24,7 +24,7 @@ header {
 }
 
 .logo img {
-    margin: 18px 0px 0px 10px;
+    margin: 21px 0px 0px 8px;
     height: 75%;
     width: auto;
     display: block;
@@ -79,7 +79,7 @@ main {
   box-sizing: border-box;
   font-family: sans-serif;
   text-align: center;
-  margin-top: 125px;
+  margin-top: 65px;
 }
 
 .cadastro > div:first-child {

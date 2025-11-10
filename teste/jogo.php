@@ -22,10 +22,10 @@ include ("protect.php");
         <!-- <h1>JecaMaracatu</h1> -->
       </div>
       <nav>
-        <button id="btnAbrirConfig">⚙️</button>
-        <button id="btnAbrirLoja">🛒</button>
-        <button id="btnAbrirReceitas">📒</button>
-        <button id="btnAbrirPerfil">👤</button>
+        <button id="btnAbrirConfig"><img src="img/configuracao.png" alt=""></button>
+        <button id="btnAbrirLoja"><img src="img/mercado.png" alt=""></button>
+        <button id="btnAbrirReceitas"><img src="img/receitas.png" alt=""></button>
+        <button id="btnAbrirPerfil"><img src="img/perfil.png" alt=""></button>
       </nav>
 
       <!-- <div class="dinheiro-display">

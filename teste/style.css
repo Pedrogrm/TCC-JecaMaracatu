@@ -51,6 +51,12 @@ nav button {
   transition: all 0.2s ease;
 }
 
+nav button img {
+  border: none;
+  width:auto;
+  height: 45px;
+}
+
 nav button:hover {
   background-color: #f6910d;
   transform: scale(1.05);
