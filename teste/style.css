@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #f3d86a;
-  padding: 10px 30px;
+  padding: 4px 30px;
   margin-bottom: -10px;
 }
 
@@ -22,9 +22,10 @@ header .log {
 }
 
 header .log img {
-  margin: 8px 0px 0px 45px;
-  width: 125px;  
-  height: auto;  
+  margin: 0px 0px 0px 35px;
+  width: 131px;
+  height: auto;
+  display: block;
 }
 
 
@@ -62,7 +63,7 @@ nav button:active {
 /* ================== ÁREA DO JOGO ================== */
 
 #game-area {
-  width: 65%;
+  width: 66%;
   max-height: 70%;
   background: black;
   border-radius: 10px;
@@ -81,7 +82,7 @@ nav button:active {
 
 #game-area img {
   max-width: 100%;
-  max-height: 635px;
+  max-height: 650px;
   border-radius: 10px;
 }
 
