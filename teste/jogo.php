@@ -28,10 +28,10 @@ include ("protect.php");
         <button id="btnAbrirPerfil"><img src="img/perfil.png" alt=""></button>
       </nav>
 
-      <!-- <div class="dinheiro-display">
+      <div class="dinheiro-display">
         <span>💰</span>
         <span id="dinheiro-quantidade">25</span>
-      </div> -->
+      </div>
     </header>
   </div>
 
@@ -154,6 +154,16 @@ include ("protect.php");
       </div>
     </div>
   </div>
+
+  <!-- Modal teste -->
+  <div id="teste" class="modal">
+  <div class="modal-content">
+    <span class="fechar">&times;</span>
+    <h2>teste</h2>
+    Bem Vindo!, <?php echo $_SESSION['nome']; ?>
+  </div>
+</div>
+
 
   <!-- Script principal -->
   <script src="script.js"></script>

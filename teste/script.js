@@ -1,3 +1,6 @@
+console.log("✅ Script carregado com sucesso!");
+
+
 // ===================================
 // 📜 SCRIPT DE MOVIMENTO 
 // ===================================
@@ -206,6 +209,43 @@ if (btnDano) {
 // Inicia o display do dinheiro quando a página carrega
 atualizarDinheiro();
 
+// ===================================
+//  Teste
+// ===================================
+
+window.addEventListener("load", () => {
+  const modal = document.getElementById("teste");
+
+  if (!modal) {
+    console.warn("Modal #teste não encontrado!");
+    return;
+  }
+
+  // Verifica se já foi visto
+  const jaViu = localStorage.getItem("tutorialVisto");
+
+  if (!jaViu) {
+    // Mostra o modal
+    modal.style.display = "flex";
+    console.log("🟢 Modal aberto pela primeira vez");
+
+    // Salva no localStorage
+    localStorage.setItem("tutorialVisto", "true");
+  } else {
+    console.log("⚪ Modal já foi visto antes, não será exibido.");
+  }
+});
+
+window.addEventListener("load", () => {
+  const modal = document.getElementById("teste"); // ID do modal que tu quer abrir
+  const jaViu = sessionStorage.getItem("tutorialVisto");
+
+  // se ainda não viu o modal nesta aba
+  if (!jaViu) {
+    modal.style.display = "flex"; // mostra o modal
+    sessionStorage.setItem("tutorialVisto", "true"); // marca como visto
+  }
+});
 
 
 // gryg
