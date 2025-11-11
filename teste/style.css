@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #F6910D;
-  padding: 0px 30px;
+  padding: 0px 0px;
   margin-bottom: -10px;
 }
 
@@ -24,7 +24,7 @@ header .log {
 
 header .log img {
   margin: 0px 0px 0px 10px;
-  width: 100px;
+  width: 74px;
   height: auto;
   display: block;
 }
@@ -38,18 +38,18 @@ header .log img {
 
 /* Navegação */
 nav {
-  margin: 0px 25px 0px 0px;
+  margin: 0px 0px 0px 0px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 nav button {
-  padding: 8px 13px;
+  padding: 8px 12px;
   border-radius: 10px;
   border: none;
-  background: #feac40 ; /* #feac40  #ffac40a9 */
+  background: #feac40; /* #feac40  #ffac40a9 */
   cursor: pointer;
-  font-size: 25px;
+  /* font-size: 25px; */
   margin: 0px 0px 0px 0px;
   transition: all 0.2s ease;
 }
@@ -57,7 +57,7 @@ nav button {
 nav button img {
   border: none;
   width:auto;
-  height: 45px;
+  height: 30px;
 }
 
 nav button:hover {
@@ -72,8 +72,8 @@ nav button:active {
 /* ================== ÁREA DO JOGO ================== */
 
 #game-area {
-  width: 67%;
-  max-height: 80%;
+  width: 64%;
+  max-height: 70%;
   background: black;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -86,12 +86,12 @@ nav button:active {
 }
 
 .fundo {
-  max-width: 70%;
+  max-width: 60%;
 }
 
 #game-area img {
-  max-width: 1180px;
-  max-height: 657px;
+  max-width: 1033px;
+  max-height: 488px;
   border-radius: 10px;
 }
 
@@ -102,7 +102,7 @@ nav button:active {
   Estou usando .player (classe) pois é uma prática melhor.
 */
 .player {
-  width: 120px; /* 80px (da sua regra .player) é mais exato que 12% */
+  width: 115px; /* 80px (da sua regra .player) é mais exato que 12% */
   background-color: transparent;
   position: absolute;
   left: 50%;
@@ -126,23 +126,27 @@ nav button:active {
 }
 
 #mesa1 {
-  height: 20%;
-  left: 571px;
-  top: 263px;
+  height: 21%;
+  left: 440px;
+  top: 185px;
   z-index: 1; /* O jogador (z-index: 2) passará por TRÁS */
 }
 
 #mesa2 {
-  height: 27%;
-  left: 525px;
-  top: 495px;
-  z-index: 3; /* O jogador (z-index: 2) passará por TRÁS */
+  
+  
+  
+   /* O jogador (z-index: 2) passará por TRÁS */
+  height: 28%;
+  left: 412px;
+  top: 383px;
+  z-index: 3;
 }
 
 #mesa3 {
-  height: 27%;
-  left: 1087px;
-  top: 495px;
+  height: 28%;
+  left: 787px;
+  top: 383px;
   z-index: 3; /* O jogador (z-index: 2) passará por TRÁS */
 }
 
@@ -156,8 +160,8 @@ nav button:active {
 #parede2 {
   /* background-color: purple; */
   height: 43vh;
-  width: 35vw;
-  left: 48vw;
+  width: 31vw;
+  left: 51vw;
   z-index: 3; /* O jogador (z-index: 2) passará por TRÁS */
 }
 
@@ -165,7 +169,7 @@ nav button:active {
   /* background-color: green; */
   height: 6vh;
   width: 100vw;
-  top: 42vw;
+  top: 41vw;
   z-index: 999; /* Nada passa na frente do chão */
 }
 
@@ -295,21 +299,22 @@ nav button:active {
 
 /* ================== DISPLAY DE DINHEIRO ================== */
 .dinheiro-display {
+  margin: 0px 20px 0px 0px;
   display: flex;         /* Coloca o ícone 💰 e o número lado a lado */
   align-items: center;   /* Alinha eles verticalmente ao centro */
-  gap: 8px;              /* Adiciona um espacinho entre eles */
+  gap: 2px;              /* Adiciona um espacinho entre eles */
 
   /* Abaixo, um estilo extra para ficar mais bonito */
   background-color: #ffb657; /* #feac40 semi-transparente */
-  padding: 6px 15px;     /* Espaçamento interno */
+  padding: 0px 10px;     /* Espaçamento interno */
   border-radius: 10px;   /* Deixa bem arredondado (pílula) */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  font-size: 1.5em;      /* Tamanho da fonte */
+  font-size: 1.3em;      /* Tamanho da fonte */
   font-weight: bold;     /* Deixa o número em negrito */
 }
 
 .dinheiro-display img {
-  height: 43px;
+  height: 35px;
   width: auto;
 }
 /* Ajusta o tamanho do emoji de dinheiro */

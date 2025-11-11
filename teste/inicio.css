@@ -12,7 +12,7 @@ header {
   align-items: center;
   background-color: #f3d86a;
   padding: 0;
-  height: 100px;
+  height: 71px;
   overflow: hidden;
   position: relative; /* necessário pro z-index */
   z-index: 10;        /* garante que o header e sombra fiquem acima da imagem */
@@ -20,13 +20,13 @@ header {
 }
 
 .logo {
-  height: 150px;
+  height: 126px;
 }
 
 .logo img {
-    margin: 24px 0px 0px 8px;
-    height: 69%;
-    width: auto;
+    margin: 28px 0px 0px 8px;
+    width: 75px;
+    height: auto;
     display: block;
 }
 
@@ -59,27 +59,28 @@ nav button:active {
 
 /* -------- MAIN -------- */
 main {
-  background: url('img/Design.png') ;
+  background: url('img/Design.png');
   background-size: cover;
-  height: 670px;
+  height: 514px;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5px 0;
+  padding: 0px 0;
 }
 
 /* -------- CADASTRO -------- */
 .cadastro {
-  width: 400px;
-  padding: 30px 25px;
+  width: 375px;
+  padding: 35px 30px 10px 30px;
   background-color: #f3d86a;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   box-sizing: border-box;
   font-family: sans-serif;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .cadastro > div:first-child {
