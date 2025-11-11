@@ -29,7 +29,7 @@ include ("protect.php");
       </nav>
 
       <div class="dinheiro-display">
-        <span>💰</span>
+        <span><img src="img/saco.png" alt=""></span>
         <span id="dinheiro-quantidade">25</span>
       </div>
     </header>
@@ -156,14 +156,13 @@ include ("protect.php");
   </div>
 
   <!-- Modal teste -->
-  <div id="teste" class="modal">
+  <!-- <div id="teste" class="modal">
   <div class="modal-content">
     <span class="fechar">&times;</span>
     <h2>teste</h2>
     Bem Vindo!, <?php echo $_SESSION['nome']; ?>
   </div>
-</div>
-
+</div> -->
 
   <!-- Script principal -->
   <script src="script.js"></script>

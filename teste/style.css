@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   /* background-color: #f3d86a; */
-  background: url('img/fundi.jpg') 
+  background: url('img-cenario/fundi.jpg') 
 }
 
 header {
@@ -308,19 +308,24 @@ nav button:active {
   font-weight: bold;     /* Deixa o número em negrito */
 }
 
-/* Ajusta o tamanho do emoji de dinheiro */
-.dinheiro-display span:first-child {
-  font-size: 1.2em;
+.dinheiro-display img {
+  height: 45px;
+  width: auto;
 }
+/* Ajusta o tamanho do emoji de dinheiro */
+/* .dinheiro-display span:first-child {
+  height: 20px ;
+  width: auto;
+} */
 
 /* Opcional: Se o número tiver um ID, podemos ser específicos */
 #dinheiro-quantidade {
   color: #333; /* Cor escura para o número */
 }
 
-.teste {
+/* .teste {
  display: block;
-}
+} */
 
 
 /* gryg */
