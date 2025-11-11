@@ -30,6 +30,7 @@ include ("protect.php");
 
       <div class="dinheiro-display">
         <span><img src="img/saco.png" alt=""></span>
+        <span class="ponto">:</span>
         <span id="dinheiro-quantidade">25</span>
       </div>
     </header>

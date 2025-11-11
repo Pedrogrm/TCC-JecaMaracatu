@@ -47,7 +47,7 @@ nav button {
   padding: 8px 13px;
   border-radius: 10px;
   border: none;
-  background: #ffac40a9;
+  background: #feac40 ; /* #feac40  #ffac40a9 */
   cursor: pointer;
   font-size: 25px;
   margin: 0px 0px 0px 0px;
@@ -62,7 +62,7 @@ nav button img {
 
 nav button:hover {
   background-color: #f6910d;
-  transform: scale(1.05);
+  transform: scale(1.10);
 }
 
 nav button:active {
@@ -232,7 +232,7 @@ nav button:active {
 
 .fechar:hover,
 .fechar:focus {
-  color: #f00;
+  color: #920000;
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -300,7 +300,7 @@ nav button:active {
   gap: 8px;              /* Adiciona um espacinho entre eles */
 
   /* Abaixo, um estilo extra para ficar mais bonito */
-  background-color: #FFEC91; /* Fundo branco semi-transparente */
+  background-color: #ffb657; /* #feac40 semi-transparente */
   padding: 6px 15px;     /* Espaçamento interno */
   border-radius: 10px;   /* Deixa bem arredondado (pílula) */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -309,7 +309,7 @@ nav button:active {
 }
 
 .dinheiro-display img {
-  height: 45px;
+  height: 43px;
   width: auto;
 }
 /* Ajusta o tamanho do emoji de dinheiro */
@@ -317,10 +317,16 @@ nav button:active {
   height: 20px ;
   width: auto;
 } */
-
+.dinheiro-display .ponto {
+  color: #1b511e;
+  font-family: tilt neon;
+  padding: 0px;
+  margin: 0px;
+}
 /* Opcional: Se o número tiver um ID, podemos ser específicos */
 #dinheiro-quantidade {
-  color: #333; /* Cor escura para o número */
+  font-family: Tilt Neon;
+  color: #1b511e; /* Cor escura para o número */
 }
 
 /* .teste {

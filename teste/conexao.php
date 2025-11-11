@@ -21,6 +21,7 @@ $senha = 'Senai@118';
 $database = 'jeca';
 $host = 'localhost';
 
+
 $mysqli = new mysqli($host, $usuario, $senha, $database);
 
 if ($mysqli->connect_error) {
