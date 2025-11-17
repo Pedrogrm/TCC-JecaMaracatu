@@ -297,6 +297,29 @@ nav button:active {
   color: #5c4400;
 }
 
+/* ================== Perfil ==================  */
+
+.nomedousuario {
+  text-transform:  capitalize;
+}
+
+.btn{
+  margin-top: 5px;
+  font-size: medium;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #ffac40;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #f6910d;
+  color: #5c4400;
+}
+
 /* ================== DISPLAY DE DINHEIRO ================== */
 .dinheiro-display {
   margin: 0px 20px 0px 0px;

@@ -1,7 +1,11 @@
 <?php
-
-
 include ("protect.php");
+
+// Se não está logado, vai para o login
+// if (!isset($_SESSION['usuario'])) { 
+//     header('Location: index.php'); 
+//     exit(); 
+// }
 
 ?>
 
@@ -135,10 +139,12 @@ include ("protect.php");
     <div class="modal-content">
       <span class="fechar">&times;</span>
       <h2>👤 Perfil</h2>
-      Bem Vindo!, <?php echo $_SESSION['nome']; ?>
+      Bem Vindo, <strong class="nomedousuario"><?php echo $_SESSION['nome'];?></strong>!
+      
+      <p></p>
 
       <p>
-        <a href="logout.php">Sair</a>
+        <a href="logout.php"><button class="btn">Sair</button></a>
       </p>
     </div>
   </div>
