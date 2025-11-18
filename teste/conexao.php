@@ -19,7 +19,7 @@ error_reporting(E_ALL);
 $usuario = 'root';
 $senha = 'Senai@118';
 $database = 'jeca';
-$host = 'localhost';
+$host = '10.106.12.113';
 
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);
