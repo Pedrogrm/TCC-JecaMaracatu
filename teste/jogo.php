@@ -144,7 +144,7 @@ include ("protect.php");
       <p></p>
 
       <p>
-        <a href="logout.php"><button class="btn">Sair</button></a>
+        <button class="btn" onclick="window.location.replace('logout.php')">Sair</button>
       </p>
     </div>
   </div>
@@ -157,7 +157,7 @@ include ("protect.php");
       <div class="config-opcoes">
         <button id="btnSom">🔊 Som: Ativado</button>
         <button id="btnLinguagem">🌐 Linguagem: Português</button>
-        <button id="btnJacquin">👨‍🍳 Érick Jacquin</button>
+        <!-- <button id="btnJacquin">👨‍🍳 Érick Jacquin</button> -->
       </div>
     </div>
   </div>

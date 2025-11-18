@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <img src="img/icon.png" alt="Logo Maracatu">
     </div>
     <nav>
-      <a href="index.php"><button>Login</button></a>
+      <!-- <a href="index.php"><button>Login</button></a> -->
     </nav>
   </header>
 

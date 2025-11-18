@@ -95,7 +95,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
       <img src="img/icon.png" alt="Logo Maracatu">
     </div>
     <nav>
-      <a href="cadastro.php"><button>Sign up</button></a>
+      <!-- <a href="cadastro.php"><button>Sign up</button></a> -->
     </nav>
   </header>
 

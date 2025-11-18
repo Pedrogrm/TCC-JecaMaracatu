@@ -6,11 +6,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // 2. FORÇA O NAVEGADOR A NÃO FAZER CACHE
-// Esta é a correção para o problema do "botão voltar".
-header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
-header('Expires: 0'); // Força a expiração imediata
+// header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+// header('Cache-Control: post-check=0, pre-check=0', false);
+// header('Pragma: no-cache');
+// header('Expires: 0'); // Força a expiração imediata
 
 // 3. VERIFICA SE O USUÁRIO ESTÁ LOGADO (Sua lógica)
 if (!isset($_SESSION['id'])) {

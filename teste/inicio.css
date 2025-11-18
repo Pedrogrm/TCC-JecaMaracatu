@@ -24,7 +24,7 @@ header {
 }
 
 .logo img {
-    margin: 28px 0px 0px 8px;
+    margin: 28px 0px 0px 4px;
     width: 75px;
     height: auto;
     display: block;
@@ -104,6 +104,16 @@ main {
   border-radius: 8px;
   box-sizing: border-box;
 }
+
+/* Adicione isso aqui: */
+    .form-control::placeholder {
+        color: #aaa;
+        transition: 0.2s;
+    }
+
+    .form-control:focus::placeholder {
+        color: transparent;
+    }
 
 .cadastro button {
   width: 100%;

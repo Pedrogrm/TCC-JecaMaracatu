@@ -206,6 +206,30 @@ if (btnDano) {
   );
 }
 
+// ===================================
+//  Limpeza dos placeholders
+// ===================================
+
+    // Seleciona todos os inputs da página
+    const inputs = document.querySelectorAll('input');
+
+    inputs.forEach(input => {
+        // Guarda o texto original do placeholder
+        const originalPlaceholder = input.getAttribute('placeholder');
+
+        // Quando Clicar (Foco): Apaga
+        input.addEventListener('focus', () => {
+            input.setAttribute('placeholder', '');
+        });
+
+        // Quando Sair (Blur): Devolve o texto original
+        input.addEventListener('blur', () => {
+            input.setAttribute('placeholder', originalPlaceholder);
+        });
+    });
+
+// gryg
+
 // Inicia o display do dinheiro quando a página carrega
 atualizarDinheiro();
 
@@ -249,3 +273,5 @@ atualizarDinheiro();
 
 
 // gryg
+
+
